@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
   <head>
     <title>PlatziMediaPlayer.js</title>
@@ -22,31 +23,6 @@
       <button>Play/Pause</button>
     </main>
 
-    <script>
-
-      const video = document.querySelector('video');
-      const button = document.querySelector('button');
-
-
-      function MediaPlayer(config)  {
-        this.media = config.element;
-      }
-
-      MediaPlayer.prototype.play = function () {
-        this.media.play();
-      }
-
-      MediaPlayer.prototype.pause = function() {
-        this.media.pause();
-      };
-
-      MediaPlayer.prototype.togglePlay = function() {
-        (this.media.paused) ? this.play() : this.pause();
-      };
-
-      const player = new MediaPlayer({element: video});
-      button.onclick = button.onclick = () => player.togglePlay();
-
-    </script>
+    <script src="assets/index.js"></script>
   </body>
 </html>
