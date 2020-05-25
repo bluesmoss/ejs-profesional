@@ -47,9 +47,6 @@ function fullName(firstName:string, lastName:string = 'Smith'): string {
 const richard = fullName('Alfred');
 
 
-
-
-
 //interface
 interface Rectangulo {
   ancho: number;
