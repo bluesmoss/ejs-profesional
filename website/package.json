@@ -11,11 +11,14 @@
     "start": "parcel index.html  ejercicios.html ejercicios/**/*.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.3"
   },
   "browserslist": [
     "last 1 Chrome version"
   ],
   "main": "index.js",
-  "dependencies": {}
+  "dependencies": {
+    "@bluesmoss/mediaplayer": "^1.0.0"
+  }
 }

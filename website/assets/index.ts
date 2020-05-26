@@ -1,7 +1,7 @@
-import MediaPlayer from './MediaPlayer';
-import AutoPlay from './plugins/AutoPlay';
-import AutoPause from './plugins/AutoPause';
-import Ads from './plugins/Ads';
+import MediaPlayer from '@bluesmoss/mediaplayer';
+import AutoPlay from '@bluesmoss/mediaplayer/lib/plugins/AutoPlay';
+import AutoPause from '@bluesmoss/mediaplayer/lib/plugins/AutoPause';
+import Ads from '@bluesmoss/mediaplayer/lib/plugins/Ads';
 
 const video = document.querySelector('video');
 const btnPlay: HTMLElement = document.getElementById('btn-play');
